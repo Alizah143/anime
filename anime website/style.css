@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: whitesmoke;
+    background-image: url(Anya_chan_____-removebg-preview.png);
+    background-repeat: no-repeat;
+}
+.top{
+    justify-content: space-between;
+    margin-top: 1px;
+    padding: 10px;
+}
+.logo a{
+    font-size: 3rem;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.logo a span{
+    color: orange;
+}
+.navbar{
+    margin-top: -8rem;
+    position: fixed;
+    float: right;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin-left: 12rem;
+   padding: -10px;
+   color: black;
+   font-weight: 500;
+   font-size: 22px;
+}
+.navbar ul li a:hover{
+    color: orange;
+}
+.heading h1{
+    padding: 1px;
+    margin-left: 44rem;
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.heading h1 span{
+    color: orange;
+}
+.button {
+    margin-left: 44rem;
+    margin-top: 2rem;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 5px white;
+    background-color: 	orange;
+    border-radius: 25px;
+    padding-left:27px ;
+    padding-right: 27px;
+    padding: 6px;
+}
+#next {
+    margin-left: 82rem;
+    }
+#next i{
+    font-size: 32px;
+    color: orange;
+    cursor: pointer;
+}
+.second{
+    justify-content: space-around;
+    margin-top: 6rem;
+    justify-content: center;
+}
+.sideline{
+    background-color: #FFD580;
+    padding: 19rem;
+}
+.sideline h3{
+    margin-top: -17rem;
+    margin-left: -12rem;
+    color: white;
+    font-size: 2rem;
+}
+.second h2{
+    margin-top: -22rem;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    font-size: 5rem;
+}
+.forward {
+    margin-top: 7rem;
+    margin-left: 70rem;
+}
+.forward button {
+    color: white;
+    font-size: 25px;
+    background-color: orange;
+    font-weight: 300;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+    padding-left:27px ;
+    cursor: pointer;
+   padding-right: 27px;
+}
+.last {
+    min-height: -40vh;
+}
+.last .bg {
+   margin-left: 50rem;
+   margin-top: -1rem;
+}
+.last .logo{
+    margin-top: 8rem;
+    margin: 25px;
+}
+.bg {
+    margin-top: -2rem;
+}
+.card{
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    padding: 7px;
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(255,255,255,0.18);
+   border-radius: 20px;
+   box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+   margin: 790px;
+   margin-top: -18rem;
+   margin-left: -1rem;
+}
+.card h3{
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+.card h3 span{
+    color: orange;
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+.card p {
+    margin-left: 4rem;
+   
+}
+.watch {
+    margin-top: 19px;
+    margin-left: 4rem;
+    
+}
+.watch a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 5px white;
+    background-color: 	orange;
+    border-radius: 25px;
+    padding-left:27px ;
+    padding-right: 27px;
+    padding: 6px;
+}
+.new {
+    margin-left: 30rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.new h5{
+    font-size: 4rem;
+    margin-top: -5rem;
+}
